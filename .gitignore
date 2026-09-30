@@ -1,0 +1,38 @@
+# Vivado/Vitis output, simulator state and local measurements
+build/
+reports/
+.Xil/
+.srcs/
+xsim.dir/
+pytest-cache-files-*/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+*.log
+*.jou
+*.pb
+*.dcp
+*.bit
+*.xsa
+*.elf
+*.xpr
+*.wdb
+clockInfo.txt
+tight_setup_hold_pins.txt
+
+# Per-machine configuration and credentials
+host/settings.json
+.env
+.env.*
+*.lic
+*.pem
+*.pfx
+*.key
+id_rsa*
+id_ed25519*
+
+# Original hardware documents are referenced, not redistributed
+*.pdf
+
+# Local exploratory diagnostics
+scripts/probe_*
